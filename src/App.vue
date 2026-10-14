@@ -208,7 +208,10 @@ const shareTargetPicker = () => {
                 action: {
                   type: 'uri',
                   label: '查看庫存',
-                  uri: 'https://www.icloud.com/notes/05asjVt-XnFXvrOvG-8TLjJ_w',
+                  uri: 'https://www.icloud.com/notes/05asjVt-XnFXvrOvG-8TLjJ_w?openExternalBrowser=1',
+                  altUri: {
+                    desktop: 'https://www.icloud.com/notes/05asjVt-XnFXvrOvG-8TLjJ_w',
+                  },
                 },
               },
             ],
