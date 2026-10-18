@@ -300,7 +300,7 @@ initLiff()
               </div>
               <div class="item-field item-qty">
                 <select v-model.number="item.quantity" class="input select-input" required>
-                  <option v-for="n in 10" :key="n" :value="n">
+                  <option v-for="n in 30" :key="n" :value="n">
                     {{ n }}
                   </option>
                 </select>
